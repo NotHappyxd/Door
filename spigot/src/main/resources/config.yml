@@ -1,0 +1,15 @@
+server-name: "Hub"
+redis:
+  host: localhost
+  port: 6379
+  password: password
+queue-message:
+  - "&a{queueName} Queue Position: &c{position}&a/&c{size}"
+  - "&7&oWant to get in faster? Purchase access at"
+  - "&astore.enforced.gg"
+  - "&7&oYou can leave the queeu by executing the command /leavequeue"
+lanes:
+  default:
+    name: "Default"
+    permission: "lane.default"
+    priority: 1

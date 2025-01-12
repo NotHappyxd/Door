@@ -1,0 +1,19 @@
+name: Door
+authors: [Happy, 0js]
+main: me.happy.door.spigot.Door
+version: 1.0.0
+commands:
+  joinqueue:
+    usage: "/joinqueue <queue>"
+    description: "Join a queue"
+  setupdatetime:
+    usage: "/setupdatetime <queue> <time>"
+    description: "Change the time between sending players to the server"
+  pausequeue:
+    usage: "/pausequeue <queue>"
+    description: "Pause a queue"
+  queue:
+    description: "View data for queues"
+  checkposition:
+    usage: "/checkposition <player>"
+    description: "Check the position for a player"
